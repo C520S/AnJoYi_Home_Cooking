@@ -1,6 +1,7 @@
 const path = require('path');
 const express = require('express');
 const port = 3000;
+const homepageRouter = require('./routes/homepage');
 
 class AppConfig {
     constructor(app){
@@ -21,6 +22,7 @@ class AppConfig {
     this.app.listen(port,()=>{
         console.log(`The program is listening to port ${port}`);
     });
+    this.app.use(homepageRouter);
 }
 }
 
