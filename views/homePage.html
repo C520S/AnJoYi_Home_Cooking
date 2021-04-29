@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/homePageStyle.css">
     <link rel="icon" href="/images/pandaicon.png" type="image/x-icon">
+    <script src="/JS/homepageData.js"></script>
     <title>AnJoYi Home Cooking</title>
 </head>
+
 <body>
     <div class="header">
         <div class="logo">
@@ -15,7 +18,7 @@
         </div>
         <div class="homeButton hoverHome">
             <div class="homeButtonBox"><a class="homeButtonText">HOME</a></div>
-        </div>   
+        </div>
     </div>
     <div class="content">
         <div class="background">
@@ -23,43 +26,43 @@
         </div>
         <div class="categoriesBox">
             <div class="categories">
-                <div class="pasta hover">
+                <div class="pasta hover" data-index="1">
                     <div class="categiryPicture"><img src="/images/pasta_logo1.png"></div> <!-- circle/icon -->
                     <div class="categoryText"><a>Pasta</a></div> <!-- text -->
                 </div>
-                <div class="redmeat hover">
+                <div class="redmeat hover" data-index="2">
                     <div class="categiryPicture"><img src="/images/redmeat_logo1.png"></div> <!-- circle/icon -->
                     <div class="categoryText"><a>Red meat</a></div> <!-- text -->
                 </div>
-                <div class="chicken hover">
+                <div class="chicken hover" data-index="3">
                     <div class="categiryPicture"><img src="/images/chicken_logo1.png"></div> <!-- circle/icon -->
                     <div class="categoryText"><a>Chicken</a></div> <!-- text -->
                 </div>
-                <div class="salads hover">
+                <div class="salads hover" data-index="4">
                     <div class="categiryPicture"><img src="/images/salad_logo1.png"></div> <!-- circle/icon -->
                     <div class="categoryText"><a>Salads</a></div> <!-- text -->
                 </div>
-                <div class="seafood hover">
+                <div class="seafood hover" data-index="5">
                     <div class="categiryPicture"><img src="/images/seafood_logo1.png"></div> <!-- circle/icon -->
                     <div class="categoryText"><a>Seafood</a></div> <!-- text -->
                 </div>
-                <div class="sushi hover">
+                <div class="sushi hover" data-index="6">
                     <div class="categiryPicture"><img src="/images/sushi_logo1.png"></div> <!-- circle/icon -->
                     <div class="categoryText"><a>Sushi</a></div> <!-- text -->
                 </div>
-                <div class="vegetarian hover">
+                <div class="vegetarian hover" data-index="7">
                     <div class="categiryPicture"><img src="/images/vegetarian_logo1.png"></div> <!-- circle/icon -->
                     <div class="categoryText"><a>Vegan</a></div> <!-- text -->
                 </div>
-                <div class="finnishFood hover">
+                <div class="finnishFood hover" data-index="8">
                     <div class="categiryPicture"><img src="/images/finnish_logo1.png"></div> <!-- circle/icon -->
                     <div class="categoryText"><a>Finnish food</a></div> <!-- text -->
                 </div>
-                <div class="armenianFood hover">
+                <div class="armenianFood hover" data-index="9">
                     <div class="categiryPicture"><img src="/images/armenian_logo1.png"></div> <!-- circle/icon -->
                     <div class="categoryText"><a>Armenian food</a></div> <!-- text -->
                 </div>
-                <div class="chineseFood hover">
+                <div class="chineseFood hover" data-index="10">
                     <div class="categiryPicture"><img src="/images/chinese_logo1.png"></div> <!-- circle/icon -->
                     <div class="categoryText"><a>Chinese food</a></div> <!-- text -->
                 </div>
@@ -70,14 +73,9 @@
 
 
         <div class="recipes">
-            <div class="recipeBox">
-                <div class="recipePicture">
-                    <img> <!-- Put Recipe Picture here-->
-                </div>
-                <div class="titleAndTime">
-                    <a class="title">Title</a>
-                    <a class="time">Time</a>
-                </div>
+            <div class="recipesRows">
+               
+             
             </div>
         </div>
 
@@ -109,7 +107,7 @@
                             <div class="big">Google Play</div>
                         </div>
                     </div>
-                </div>  
+                </div>
             </div>
             <div class="joinUs" style="width: 25%">
                 <div class="footerheaders">Join us</div>
@@ -141,5 +139,7 @@
             <div class="copyrighttext">AnJoYi 2020-2021. All rights reserved.</div>
         </div>
     </div>
+
 </body>
+
 </html>

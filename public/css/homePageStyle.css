@@ -10,6 +10,7 @@
     display: flex;
     justify-content: space-around;
 }
+
 .homeButton {
     box-shadow: rgb(0 0 0 / 10%) 0px 2px 10px 0px;
     background-color: rgb(69, 201, 3);
@@ -22,23 +23,27 @@
     font-weight: 900;
     text-align: center;
     margin-left: 25px;
-    pointer-events: auto; 
+    pointer-events: auto;
 }
+
 .homeButtonBox {
     padding-top: 9px;
 }
+
 .logo {
     width: 150px;
     height: 80px;
 }
+
 .content {
     width: 100%;
     height: auto;
     margin-top: 100px;
     /* background-color: rgb(253, 210, 152); */
     background-image: url(/images/background_ver_three.png);
-    
+
 }
+
 .background {
     background-image: url(/images/background_ver_two.png);
     width: 100%;
@@ -47,6 +52,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .backgroundText {
     /* background-color: orange; */
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.349019607843137);
@@ -60,12 +66,14 @@
     font-weight: 900;
     font-family: "Open Sans", Arial, sans-serif;
 }
+
 .categoriesBox {
     display: flex;
     justify-content: center;
     height: 100%;
     /* background-color: rgb(253, 210, 152); */
 }
+
 .categories {
     /* background-color: rgb(253, 216, 204); */
     background-color: rgb(134, 66, 37);
@@ -79,15 +87,19 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .hover {
     border-radius: 35px;
 }
+
 .pasta {
     margin-left: 20px;
 }
+
 .chineseFood {
     margin-right: 20px;
 }
+
 .categiryPicture {
     width: 70px;
     height: 70px;
@@ -96,6 +108,7 @@
     border: 3px solid rgb(69, 201, 3);
     border-radius: 75px;
 }
+
 .categoryText {
     /* background-color: green; */
     font-family: "Open Sans", Arial, sans-serif;
@@ -109,51 +122,80 @@
     justify-content: center;
     align-items: center;
 }
-.recipeBox {
-    background-color: red;
-    width: 280px;
-    height: 240px;
-    margin-left: 174px;
-    margin-top: 31px;
+
+.recipes {
+    display: flex;
+    justify-content: center;
 }
+
+.recipesRows {
+    width: 1119px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.recipeBox {
+    margin-top: 34px;
+    margin-bottom: 34px;
+    background-color: rgb(69, 201, 3);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.349019607843137);
+    border-radius: 10px;
+    width: 280px;
+    height: 220px;
+}
+
 .recipePicture {
-    background-color:blue;
+    
     height: 87.5%;
 }
+
 .titleAndTime {
     display: flex;
     justify-content: space-between;
+    font-size: 10px;
+    line-height: 27.5px;
+    color: #fff;
+
 }
+
 .title {
-    background-color: green;
-    height: 30px;
+
+    height: 100%;
 }
+
 .time {
-    background-color: yellow;
-    height: 30px;
+
+    height: 100%;
+
 }
+
 .footer {
     background-color: rgb(253, 210, 152);
     border-top: 3px solid rgb(69, 201, 3);
     height: 452px;
     border-bottom: 3px solid rgb(69, 201, 3);
 }
+
 .pandaLogo {
     margin-top: 46px;
     margin-left: 42px;
     width: 25%;
 }
+
 .footerContent {
     display: flex;
     margin-top: 46px;
     margin-left: 42px;
 }
+
 .footerheaders {
     font-family: 'Microsoft YaHei';
     font-weight: 700;
     font-size: 18px;
     color: #333333;
 }
+
 .apple {
     margin-top: 30px;
     background-color: black;
@@ -161,15 +203,18 @@
     height: 68px;
     border-radius: 10px;
 }
+
 .appleicontext {
     display: flex;
 }
+
 #appleicon {
     width: 40px;
     height: 40px;
     margin-top: 14px;
     margin-left: 11px;
 }
+
 .text {
     color: white;
     font-family: 'Microsoft YaHei';
@@ -178,9 +223,11 @@
     font-weight: 700;
     margin-top: 11px;
 }
+
 .big {
     font-size: 23px;
 }
+
 .android {
     background-color: black;
     margin-top: 15px;
@@ -188,59 +235,75 @@
     height: 68px;
     border-radius: 10px;
 }
+
 .androidicontext {
     display: flex;
 }
+
 #androidicon {
     width: 40px;
     height: 40px;
     margin-top: 14px;
     margin-left: 11px;
 }
+
 .footerText {
     font-family: 'Microsoft YaHei';
     font-size: 18px;
     color: #333333;
 }
+
 .contactbuttons {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
     width: 55.09%;
 }
+
 .copyright {
     height: 35px;
     background-color: rgb(253, 210, 152);
 }
+
 .copyrightcontent {
     display: flex;
     margin-left: 42px;
     padding-top: 10px;
 }
+
 #copyrighticon {
     width: 14px;
     margin: 0px 6px 0px;
 }
+
 .copyrighttext {
     color: black;
     font-size: 14px;
     font-family: 'Arial';
 }
-.hover:hover { 
+
+.hover:hover {
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.938);
     background-color: rgb(253, 210, 152);
 }
+
 .categoryText:hover {
     color: rgb(57, 167, 2);
 }
+
 .hoverHome:hover {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.349019607843137);
     background-color: rgb(57, 167, 2);
 }
+
 .hoverHome:active {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.582);
     background-color: rgb(40, 117, 1);
 }
+
 .hoverButton:hover {
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.726);
+}
+.recipeBox:hover{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.582);
 }

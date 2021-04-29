@@ -7,9 +7,9 @@ router.get('/', (req, res) => {
     res.render('homePage.html')
 })
 
-router.get('/get_data',(req,res)=>{
-    (async function getData (){
-        let result = await handleDB(res,'select * from info_category');
+router.get('/homePageData',(req,res)=>{
+    (async function (){
+        let result = await handleDB(res,'select * from recipe where id_category =1;');
         
         res.send(result);
      })();
