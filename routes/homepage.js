@@ -14,7 +14,8 @@ router.get('/homePageData',(req,res)=>{
         res.send(result);
      })();
 
-})
+});
+
 
 
 
