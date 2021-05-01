@@ -15,6 +15,16 @@ router.get('/homePageData',(req,res)=>{
      })();
 
 });
+router.get('/categories_list',(req,res)=>{
+    (async function (){
+        let {categoryId} =req.query
+      
+        let result = await handleDB(res,`select * from recipe where id_category =${categoryId};`);
+        
+         
+     })();
+
+});
 
 
 

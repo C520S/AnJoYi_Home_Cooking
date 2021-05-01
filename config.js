@@ -20,7 +20,7 @@ class AppConfig {
 
     this.app.set('view engine', 'html');
     this.app.listen(port,()=>{
-        console.log(`The program is listening to port ${port}and local server is on`);
+        console.log(`The program is listening to port ${port} and local server is on`);
     });
     this.app.use(homepageRouter);
 }
