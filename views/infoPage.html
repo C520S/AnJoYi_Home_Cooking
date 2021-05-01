@@ -10,13 +10,13 @@
         <div class="logo">
             <div class="logoBox"><img src="/images/main_logo.png" class="logoIcon"></div>
         </div>
-        <div class="homeButton hoverHome">
+        <div class="homeButton hoverHome" onclick="window.location.href= '/';return false">
             <div class="homeButtonBox"><a class="homeButtonText">HOME</a></div>
         </div>
     </div>
     <div class="content">
         <div class="backButtonBox">
-            <div class="backButton">
+            <div class="backButton" onclick="window.location.href= '/';return false">
                 <div class="backButtonStyle">
                     <a>BACK</a>
                 </div>
@@ -52,7 +52,7 @@
                     </div>
                     <div class="shoppingList">
                         {{@ recipe.shoppinglist}}
-                    </div> 
+                    </div>
                 </div>
             </div>
         </div>
@@ -123,6 +123,13 @@
             <div class="copyrighttext">AnJoYi 2020-2021. All rights reserved.</div>
         </div>
     </div>
+    <script>
+        let showShoppingListButton = document.querySelector('.showShoppingList');
+        let shoplist = document.querySelector('.shoppingList');
+        showShoppingListButton.onclick = function() {
+            shoplist.style.display = 'block';
+        }
+    </script>
 </body>
 
 </html>

@@ -73,6 +73,9 @@ window.onload = function () {
         })
     }
    
-  
+   let homeButton =document.querySelector('.homeButton');
+   homeButton.onclick = function() {
+    window.location.href= '/';return false;
+   }
 
 };
