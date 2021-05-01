@@ -1,0 +1,280 @@
+.header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-color: rgb(253, 210, 152);
+    border-bottom: 3px solid rgb(69, 201, 3);
+    top: 0;
+    left: 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.homeButton {
+    box-shadow: rgb(0 0 0 / 10%) 0px 2px 10px 0px;
+    background-color: rgb(69, 201, 3);
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans", Arial, sans-serif;
+    border-radius: 3px;
+    width: 96px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 900;
+    text-align: center;
+    margin-left: 25px;
+    pointer-events: auto; 
+}
+.homeButtonBox {
+    padding-top: 9px;
+}
+.logo {
+    width: 150px;
+    height: 80px;
+}
+.content {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    background-image: url(Pictures/background/background_ver_three.png);
+}
+.backButtonBox {
+    display: flex;
+    justify-content: center;
+}
+.backButton {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 76.158%;
+    height: 46px;
+    /* background-color: red; */
+}
+.backButtonStyle {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.582);
+    border: 3px solid rgb(69, 201, 3);
+    border-radius: 5px;
+    width: 12.17%;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    background-color:rgb(134, 66, 37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigInfoBoxStyle {
+    display: flex;
+    justify-content: center;
+}
+.bigInfoBox {
+    width: 76.158%;
+    height: 612px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.pictureBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 53.217%;
+    border: 3px solid rgb(69, 201, 3);
+    background-color: rgb(253, 210, 152);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.582);    
+}
+.restInfo {
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans", Arial, sans-serif;
+    width: 43.565%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: blue; */
+}
+.titleTimeLevel {
+    height: 43.79%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.title {
+    font-size: 22px;
+    height: 24.626%;
+    background-color:rgb(134, 66, 37);
+    border: 3px solid rgb(69, 201, 3);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.582);
+}
+.timeAndDifficultyLevel {
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 24.626%;
+    background-color:rgb(134, 66, 37);
+    border: 3px solid rgb(69, 201, 3);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.582);
+}
+.showShoppingList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24.626%;
+    font-weight: 900;
+    background-color:rgb(134, 66, 37);
+    border: 3px solid rgb(69, 201, 3);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.582);
+}
+.shoppingList {
+    display: none;
+    height: 50.49%;
+    background-color:rgb(134, 66, 37);
+    border: 3px solid rgb(69, 201, 3);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.582);
+}
+.guideBox {
+    display: flex;
+    justify-content: center;
+}
+.guide {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 76.158%;
+    height: auto;
+    background-color: red;
+}
+.guideStyle {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.582);
+    border: 3px solid rgb(69, 201, 3);
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    background-color:rgb(134, 66, 37);
+}
+.footer {
+    background-color: rgb(253, 210, 152);
+    border-top: 3px solid rgb(69, 201, 3);
+    height: 452px;
+    border-bottom: 3px solid rgb(69, 201, 3);
+}
+.pandaLogo {
+    margin-top: 46px;
+    margin-left: 42px;
+    width: 25%;
+}
+.footerContent {
+    display: flex;
+    margin-top: 46px;
+    margin-left: 42px;
+}
+.footerheaders {
+    font-family: 'Microsoft YaHei';
+    font-weight: 700;
+    font-size: 18px;
+    color: #333333;
+}
+.apple {
+    margin-top: 30px;
+    background-color: black;
+    width: 233px;
+    height: 68px;
+    border-radius: 10px;
+}
+.appleicontext {
+    display: flex;
+}
+#appleicon {
+    width: 40px;
+    height: 40px;
+    margin-top: 14px;
+    margin-left: 11px;
+}
+.text {
+    color: white;
+    font-family: 'Microsoft YaHei';
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 700;
+    margin-top: 11px;
+}
+.big {
+    font-size: 23px;
+}
+.android {
+    background-color: black;
+    margin-top: 15px;
+    width: 233px;
+    height: 68px;
+    border-radius: 10px;
+}
+.androidicontext {
+    display: flex;
+}
+#androidicon {
+    width: 40px;
+    height: 40px;
+    margin-top: 14px;
+    margin-left: 11px;
+}
+.footerText {
+    font-family: 'Microsoft YaHei';
+    font-size: 18px;
+    color: #333333;
+}
+.contactbuttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 55.09%;
+}
+.copyright {
+    height: 35px;
+    background-color: rgb(253, 210, 152);
+}
+.copyrightcontent {
+    display: flex;
+    margin-left: 42px;
+    padding-top: 10px;
+}
+#copyrighticon {
+    width: 14px;
+    margin: 0px 6px 0px;
+}
+.copyrighttext {
+    color: black;
+    font-size: 14px;
+    font-family: 'Arial';
+}
+.showShoppingList:hover {
+    background-color: rgb(253, 210, 152);
+    color: rgb(69, 201, 3);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.726);
+}
+.backButtonStyle:hover {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.726);
+    background-color: rgb(253, 210, 152);
+    color: rgb(69, 201, 3);
+}
+.hoverHome:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.349019607843137);
+    background-color: rgb(57, 167, 2);
+}
+.hoverHome:active {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.582);
+    background-color: rgb(40, 117, 1);
+}
+.hoverButton:hover {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.726);
+}
