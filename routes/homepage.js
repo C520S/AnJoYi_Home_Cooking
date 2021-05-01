@@ -21,7 +21,7 @@ router.get('/categories_list',(req,res)=>{
       
         let result = await handleDB(res,`select * from recipe where id_category =${categoryId};`);
         
-         
+        res.send(result);
      })();
 
 });
