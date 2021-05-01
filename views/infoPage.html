@@ -25,7 +25,7 @@
         <div class="bigInfoBoxStyle">
             <div class="bigInfoBox">
                 <div class="pictureBox">
-                    <img src="" style="width: 100%; height:100%; border-radius: 10px;">
+                    <img src="{{recipe.picture}}" style="width: 100%; height:100%; border-radius: 10px;">
                 </div>
                 <div class="restInfo">
                     <div class="titleTimeLevel">
@@ -36,21 +36,23 @@
                             <div class="time">
                                 <a>Time:</a>
                                 <a>
-                                    <!-- Put time here-->
+                                    {{recipe.times}}
                                 </a>
                             </div>
                             <div class="difficultyLevel">
                                 <a>Difficulty level:</a>
                                 <a>
-                                    <!-- Put difficulty Level here-->
+                                    {{recipe.levels}}
                                 </a>
                             </div>
                         </div>
                         <div class="showShoppingList">
-                            <a>SHOW SHOPPING LIST</a>
+                            <a>Generate ingredients and shopping lists</a>
                         </div>
                     </div>
-                    <div class="shoppingList"></div> <!-- row №135 -->
+                    <div class="shoppingList">
+                        {{@ recipe.shoppinglist}}
+                    </div> 
                 </div>
             </div>
         </div>
@@ -59,7 +61,7 @@
                 <div class="guideStyle">
                     <a>Guide:</a><br>
                     <a>
-                        <!-- Put guide here-->
+                        {{@ recipe.guide}}
                     </a>
                 </div>
             </div>
