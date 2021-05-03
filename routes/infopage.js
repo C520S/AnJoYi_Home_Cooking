@@ -9,13 +9,4 @@ router.get("/recipes_detail/:id",(req, res) => {
        res.render("infoPage",data);
      })();
 });
-
-
-
-
-
-
-
-
-
 module.exports = router
