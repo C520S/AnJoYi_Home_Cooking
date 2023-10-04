@@ -19,9 +19,10 @@ This is a group project from my first year at Oulu University of Applied Science
 - **Node**
 - **Express**
 - **JavaScript**
-- 
+  
 ## **Database**
 - **MYSQL DATABASE**
-
-# Design of the database
 ![Local Image](./ANJoYi%20Home%20Cooking/Picture1.png)
+
+# FAQ
+Unfortunately, due to the loss of the local database, I no longer have a way to keep it running.
