@@ -6,4 +6,22 @@ This is a group project from my first year at Oulu University of Applied Science
 
 ![Local Image](./ANJoYi%20Home%20Cooking/Untitled.png)
 
+# The applied technologies
 
+## Front End
+
+- **JavaScript**
+- **HTML**
+- **CSS**
+
+## **Backend**
+
+- **Node**
+- **Express**
+- **JavaScript**
+- 
+## **Database**
+- **MYSQL DATABASE**
+
+# Design of the database
+![Local Image](./ANJoYi%20Home%20Cooking/Picture1.png)
