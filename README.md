@@ -16,7 +16,7 @@ This is a group project from my first year at Oulu University of Applied Science
 
 ## **Backend**
 
-- **Nodejs (ExpressJS 4.18.2)- MVC architecture**
+- **Nodejs (ExpressJS 4.13.2)- MVC architecture**
 - **Express**
 - **JavaScript**
   
