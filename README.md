@@ -16,7 +16,7 @@ This is a group project from my first year at Oulu University of Applied Science
 
 ## **Backend**
 
-- **Node**
+- **Node-MVC architecture**
 - **Express**
 - **JavaScript**
   
